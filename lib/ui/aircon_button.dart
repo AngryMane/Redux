@@ -1,4 +1,3 @@
-import 'package:Redux/state/car_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:Redux/state/app_state.dart';
@@ -37,7 +36,8 @@ class AirconButton extends StatelessWidget {
         children: [backgroundRect, airconStateText],
       ),
       onTap: () {
-        store.dispatch(ToggleAircon());
+        //store.dispatch(ToggleAircon());
+        store.dispatch(WebSocketTestAction(testData: "onWeb"));
       },
     );
 
