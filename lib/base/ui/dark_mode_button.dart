@@ -1,8 +1,7 @@
-import 'package:Redux/state/car_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:Redux/state/app_state.dart';
-import 'package:Redux/action/actions.dart';
+import 'package:Redux/base/state/app_state.dart';
+import 'package:Redux/base/action/actions.dart';
 
 class DarkModeButton extends StatelessWidget {
   DarkModeButton({Key key}) : super(key: key);

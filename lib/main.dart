@@ -1,10 +1,9 @@
-import 'package:Redux/reducer/app_state_reducer.dart';
+import 'package:Redux/base/reducer/app_state_reducer.dart';
 import 'package:flutter/material.dart';
 import 'package:redux/redux.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:Redux/ui/root.dart';
-import 'package:Redux/state/app_state.dart';
-import 'package:Redux/reducer/app_state_reducer.dart';
+import 'package:Redux/base/ui/root.dart';
+import 'package:Redux/base/state/app_state.dart';
 
 void main() {
   runApp(MyApp());
