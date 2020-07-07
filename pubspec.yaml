@@ -21,6 +21,7 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+  web_socket_channel: ^1.1.0
   redux: ^3.0.0
   flutter_redux: ^0.5.3
   flutter:
